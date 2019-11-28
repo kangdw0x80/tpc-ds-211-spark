@@ -3,11 +3,11 @@ TPC-DS Query Patch for Spark(TPC-DS v2.11.0rc2)
 
 
 ## query.patch
-Patch this file to query_template directory
-unzip "TPC-ds.zip"
-cp query.patch v2.11.0rc2/
-cd v2.11.0rc2
-patch -p1 < query.patch
+1. Patch this file to query_template directory
+1. unzip "TPC-ds.zip"
+1. cp query.patch v2.11.0rc2/
+1. cd v2.11.0rc2
+1. patch -p1 < query.patch
 
 
 ## gen_data.sh, gen_query.sh script
